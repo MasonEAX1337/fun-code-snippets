@@ -30,7 +30,7 @@ double getAltitudeForGravity(float targetGravity) {
 
     // Convert altitude to miles
     return altitude / 1609.34;
-}
+} ```
 
 #### Result
 Interestingly, the result was approximetly 4 miles, while the highest altitude on Earth, which is the summit of Mount Everest, is approximately 5.5 miles high.
