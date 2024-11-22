@@ -33,8 +33,15 @@ double getAltitudeForGravity(float targetGravity) {
 } 
 ```
 
+#### Explanation
 Newton's Law of Universal Gravitation:
 ![Equation](https://latex.codecogs.com/png.latex?g%20%3D%20%5Cfrac%7BG%20%5Ccdot%20M%7D%7Br%5E2%7D)
+Where:
+- G: Gravitational constant.
+- M: Mass of Earth.
+- r: Distance from Earth's center.
+
+The formula is rearranged to compute r, and Earth's radius is subtracted to get the altitude above the surface.
 
 #### Result
 Interestingly, the result was approximetly 4 miles, while the highest altitude on Earth, which is the summit of Mount Everest, is approximately 5.5 miles high.
